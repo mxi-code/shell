@@ -61,32 +61,3 @@ find ./data/processed -type f > ./data/inventory.txt
 
 echo "Project setup is complete!"
 
-###########################################
-
-#testing
-# Run script
-bash 02_activities/assignments/assignment_script.sh
-
-# Check project
-ls newproject
-
-# Check data
-ls newproject/data
-
-# Check raw data
-ls newproject/data/raw
-
-# Check processed directories
-ls newproject/data/processed
-
-# Check server logs
-ls newproject/data/processed/server_logs
-
-# Check user logs
-ls newproject/data/processed/user_logs
-
-# Check event logs
-ls newproject/data/processed/event_logs
-
-# Check inventory
-cat newproject/data/inventory.txt
